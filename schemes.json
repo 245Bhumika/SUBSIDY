@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "PM Kisan Samman Nidhi",
+      "description": "₹6,000 per year to small and marginal farmers.",
+      "eligibility": {
+        "age": null,
+        "income": 150000,
+        "location": "any",
+        "profession": "farmer"
+      },
+      "link": "https://pmkisan.gov.in/"
+    },
+    {
+      "id": 2,
+      "name": "Atal Pension Yojana",
+      "description": "Pension scheme for workers in the unorganized sector.",
+      "eligibility": {
+        "age": 18,
+        "income": null,
+        "location": "any",
+        "profession": "any"
+      },
+      "link": "https://npscra.nsdl.co.in/scheme-details.php"
+    },
+    {
+      "id": 3,
+      "name": "Ayushman Bharat",
+      "description": "Free health coverage up to ₹5 lakh for poor families.",
+      "eligibility": {
+        "age": null,
+        "income": 200000,
+        "location": "any",
+        "profession": "any"
+      },
+      "link": "https://pmjay.gov.in/"
+    }
+  ]
+  

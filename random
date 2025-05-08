@@ -1,0 +1,34 @@
+SubsidyFinder/
+├── public/
+│   ├── index.html
+│   ├── manifest.json               # PWA support
+│   └── favicon.ico
+│
+├── src/
+│   ├── assets/
+│   │   └── logo.png                # App logo or icons
+│
+│   ├── components/
+│   │   ├── FormInput.jsx           # User input form
+│   │   ├── SchemeList.jsx          # Render list of eligible schemes
+│   │   ├── SchemeCard.jsx          # Individual scheme card
+│   │   └── LanguageSelector.jsx    # Optional - multilingual toggle
+│
+│   ├── data/
+│   │   └── schemes.json            # Hardcoded scheme dataset
+│
+│   ├── utils/
+│   │   └── filterSchemes.js        # Filtering logic based on user input
+│   │   └── voiceInput.js           # Optional - voice recognition setup
+│
+│   ├── pages/
+│   │   └── Home.jsx                # Main page
+│
+│   ├── App.jsx                     # Main app logic
+│   ├── index.js                    # Entry point
+│   └── styles.css                  # Optional: global styles
+│
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js / config files
